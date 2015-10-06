@@ -27,6 +27,5 @@ var mergedConfig = _.merge({},
 // This causes problems for projects using es5 or es6 where
 // the react-eslint-plugin will not be installed.
 delete mergedConfig.rules['jsx-quotes'];
-// mergedConfig.rules = _.omit(mergedConfig.rules, 'jsx-quotes');
 
 module.exports = mergedConfig;

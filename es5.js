@@ -13,7 +13,7 @@ var mergedConfig = _.merge({},
       'browser': true,
       'node': true,
       'amd': false,
-      'mocha': false,
+      'mocha': true,
       'jasmine': false
     },
     'ecmaFeatures': {},
@@ -27,7 +27,6 @@ var mergedConfig = _.merge({},
 // For some reason airbnb defines jsx-quotes in the style file.
 // This causes problems for projects using es5 or es6 where
 // the react-eslint-plugin will not be installed.
-// mergedConfig.rules = _.omit(mergedConfig, 'jsx-quotes');
 delete mergedConfig.rules['jsx-quotes'];
 
 module.exports = mergedConfig;
