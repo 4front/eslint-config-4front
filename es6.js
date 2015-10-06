@@ -1,6 +1,6 @@
 var _ = require('lodash');
 
-module.exports = _.merge({},
+var mergedConfig = _.merge({},
   require('eslint-config-airbnb/rules/best-practices'),
   require('eslint-config-airbnb/rules/errors'),
   require('eslint-config-airbnb/rules/legacy'),
@@ -19,9 +19,13 @@ module.exports = _.merge({},
       'es6': true
     },
     'ecmaFeatures': {},
-    'globals': {},
-    'rules': {
-      'jsx-quotes': null // For some reason airbnb defines this in rules/style
-    }
+    'globals': {}
   }
 );
+
+// For some reason airbnb defines jsx-quotes in the style file.
+// This causes problems for projects using es5 or es6 where
+// the react-eslint-plugin will not be installed.
+mergedConfig.rules = _.omit(mergedConfig.rules, 'jsx-quotes');
+
+module.exports = mergedConfig;
