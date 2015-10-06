@@ -19,7 +19,8 @@ module.exports = _.merge({},
     'ecmaFeatures': {},
     'globals': {},
     'rules': {
-      'no-param-reassign': 0 // Only allow this for legacy
+      'no-param-reassign': 0, // Only allow this for legacy
+      'jsx-quotes': null // For some reason airbnb defines this in rules/style
     }
   }
 );

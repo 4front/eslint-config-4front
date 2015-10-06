@@ -19,6 +19,9 @@ module.exports = _.merge({},
       'es6': true
     },
     'ecmaFeatures': {},
-    'globals': {}
+    'globals': {},
+    'rules': {
+      'jsx-quotes': null // For some reason airbnb defines this in rules/style
+    }
   }
 );

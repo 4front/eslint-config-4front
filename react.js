@@ -6,5 +6,9 @@ module.exports = _.merge({},
     env: {
       node: false,
       mocha: false
+    },
+    rules: {
+      'react/jsx-no-duplicate-props': 2,
+      'react/jsx-quotes': 2
     }
   });
