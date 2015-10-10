@@ -6,6 +6,7 @@ module.exports = {
     'vars-on-top': 0,
     'func-names': 0,
     'no-use-before-define': [2, 'nofunc'],
-    'new-cap': [2, {'capIsNewExceptions': ['Router']}]
+    'new-cap': [2, {'capIsNewExceptions': ['Router']}],
+    'no-unused-vars': [2, {'varsIgnorePattern': 'debug', 'argsIgnorePattern': 'next'}]
   }
 };
