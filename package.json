@@ -4,6 +4,10 @@
   "description": "4front eslint config extending eslint-config-airbnb",
   "main": "index.js",
   "author": "David Von Lehman",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4front/eslint-config-4front"
+  },
   "license": "MIT",
   "dependencies": {
     "eslint-config-airbnb": "^0.1.0",

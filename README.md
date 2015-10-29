@@ -1,4 +1,4 @@
-Shareable eslint config for 4front. Extends [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) with a small number of customizations.
+Shareable eslint config for 4front. Extends [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) with a small number of [customizations](https://github.com/4front/eslint-config-4front/blob/master/custom.js).
 
 ## Usage
 
