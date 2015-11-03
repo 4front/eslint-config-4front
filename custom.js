@@ -8,6 +8,6 @@ module.exports = {
     'one-var': 0,
     'no-use-before-define': [2, 'nofunc'],
     'new-cap': [2, {'capIsNewExceptions': ['Router', 'Readable', 'Writable']}],
-    'no-unused-vars': [2, {'varsIgnorePattern': 'debug', 'argsIgnorePattern': '(next|res|err)'}]
+    'no-unused-vars': [2, {'varsIgnorePattern': 'debug', 'argsIgnorePattern': '(next|res|err|settings|options)'}]
   }
 };
