@@ -10,16 +10,16 @@ var mergedConfig = _.merge({},
   require('eslint-config-airbnb/rules/variables'),
   require('eslint-config-airbnb/rules/es6'),
   require('./custom'), {
-    'env': {
-      'browser': true,
-      'node': true,
-      'amd': false,
-      'mocha': true,
-      'jasmine': false,
-      'es6': true
+    env: {
+      browser: true,
+      node: true,
+      amd: false,
+      mocha: true,
+      jasmine: false,
+      es6: true
     },
-    'ecmaFeatures': {},
-    'globals': {}
+    ecmaFeatures: {},
+    globals: {}
   }
 );
 
