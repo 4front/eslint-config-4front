@@ -12,6 +12,8 @@ module.exports = {
       varsIgnorePattern: 'debug',
       argsIgnorePattern: '(next|res|err|settings|options)'
     }],
-    'object-curly-spacing': [2, 'never']
+    'object-curly-spacing': [2, 'never'],
+    'space-before-function-paren': [2, 'never'],
+    'consistent-return': 0
   }
 };
