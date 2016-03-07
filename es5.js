@@ -9,16 +9,16 @@ var mergedConfig = _.merge({},
   require('eslint-config-airbnb/rules/style'),
   require('eslint-config-airbnb/rules/variables'),
   require('./custom'), {
-    'env': {
-      'browser': true,
-      'node': true,
-      'amd': false,
-      'mocha': true,
-      'jasmine': false
+    env: {
+      browser: true,
+      node: true,
+      amd: false,
+      mocha: true,
+      jasmine: false
     },
-    'ecmaFeatures': {},
-    'globals': {},
-    'rules': {
+    ecmaFeatures: {},
+    globals: {},
+    rules: {
       'no-param-reassign': 0 // Only allow this for legacy
     }
   }

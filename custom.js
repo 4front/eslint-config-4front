@@ -11,6 +11,7 @@ module.exports = {
     'no-unused-vars': [2, {
       varsIgnorePattern: 'debug',
       argsIgnorePattern: '(next|res|err|settings|options)'
-    }]
+    }],
+    'object-curly-spacing': [2, 'never']
   }
 };

@@ -9,6 +9,7 @@ module.exports = _.merge({},
     },
     rules: {
       'react/jsx-no-duplicate-props': 2,
-      'react/jsx-closing-bracket-location': [2, 'after-props']
+      'react/jsx-closing-bracket-location': [2, 'after-props'],
+      'react/jsx-no-bind': 0,
     }
   });
