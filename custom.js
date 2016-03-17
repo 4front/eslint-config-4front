@@ -14,6 +14,7 @@ module.exports = {
     }],
     'object-curly-spacing': [2, 'never'],
     'space-before-function-paren': [2, 'never'],
-    'consistent-return': 0
+    'consistent-return': 0,
+    'arrow-body-style': 0
   }
 };
