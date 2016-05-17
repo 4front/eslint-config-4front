@@ -1,6 +1,6 @@
-var _ = require('lodash');
+var merge = require('lodash.merge');
 
-module.exports = _.merge({},
+module.exports = merge({},
   require('eslint-config-airbnb/rules/react'),
   require('./es6'), {
     env: {

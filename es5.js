@@ -1,6 +1,6 @@
-var _ = require('lodash');
+var merge = require('lodash.merge');
 
-var mergedConfig = _.merge({},
+var mergedConfig = merge({},
   require('eslint-config-airbnb/rules/best-practices'),
   require('eslint-config-airbnb/rules/errors'),
   require('eslint-config-airbnb/rules/legacy'),
