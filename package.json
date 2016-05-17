@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-4front",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "4front eslint config extending eslint-config-airbnb",
   "main": "index.js",
   "author": "David Von Lehman",
@@ -15,7 +15,8 @@
   },
   "devDependencies": {
     "babel-eslint": "^6.0.2",
-    "eslint": "^2.10.2"
+    "eslint": "^2.10.2",
+    "eslint-plugin-import": "^1.8.0"
   },
   "peerDependencies": {
     "eslint-plugin-react": "^4.0.0"
