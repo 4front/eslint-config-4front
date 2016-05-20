@@ -19,7 +19,10 @@ var mergedConfig = merge({},
       es6: true
     },
     ecmaFeatures: {},
-    globals: {}
+    globals: {},
+    rules: {
+      'import/no-unresolved': 0,
+    }
   }
 );
 
