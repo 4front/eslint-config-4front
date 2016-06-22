@@ -1,7 +1,7 @@
 {
   "extends": "airbnb-base/legacy",
   "rules": {
-    "id-length": [2, {"min": 2, "max": 25, "exceptions": ["_", "i"]}],
+    "id-length": [0],
     "comma-dangle": 0
   }
 }
